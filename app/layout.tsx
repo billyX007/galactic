@@ -13,7 +13,7 @@ export default function RootLayout({
       className="js-focus-visible"
       {...{ "data-js-focus-visible": true }}
     >
-      <body data-barba="wrapper" className="home js">
+      <body data-barba="wrapper" className="js">
         {children}
         <Footer />
         <button className="back-to-top-button back-to-top-button--show"></button>

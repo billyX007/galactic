@@ -1,9 +1,11 @@
+import HomeClasses from "./components/base/client/HomeClasses";
 import Header from "./components/header/Header";
 
 export default function Home() {
   return (
     <div data-barba="container" data-barba-namespace="home">
       <Header />
+      <HomeClasses />
       <main id="main-content" className="main">
         <div className="scroll-container">
           <h1 className="invisible">Home</h1>
