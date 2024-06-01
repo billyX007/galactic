@@ -1,32 +1,4 @@
 @font-face {
-  font-family: "Geomanist";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/geomanist-regular-webfont.woff2?v=1") format("woff2"),
-    url("/fonts/geomanist-regular-webfont.woff?v=1") format("woff");
-}
-@font-face {
-  font-family: "Geomanist";
-  font-style: italic;
-  font-weight: 400;
-  src: url("/fonts/geomanist-regular-italic-webfont.woff2?v=1") format("woff2"),
-    url("/fonts/geomanist-regular-italic-webfont.woff?v=1") format("woff");
-}
-@font-face {
-  font-family: "Geomanist";
-  font-style: normal;
-  font-weight: 200;
-  src: url("/fonts/geomanist-light-webfont.woff2?v=1") format("woff2"),
-    url("/fonts/geomanist-light-webfont.woff?v=1") format("woff");
-}
-@font-face {
-  font-family: "Geomanist";
-  font-style: italic;
-  font-weight: 200;
-  src: url("/fonts/geomanist-light-italic-webfont.woff2?v=1") format("woff2"),
-    url("/fonts/geomanist-light-italic-webfont.woff?v=1") format("woff");
-}
-@font-face {
   font-family: "Site Icons";
   font-style: normal;
   font-weight: normal;
@@ -1812,7 +1784,7 @@ body,
 input,
 textarea,
 button {
-  font-family: "Geomanist";
+  font-family: var("--font-geomanist");
 }
 
 input,

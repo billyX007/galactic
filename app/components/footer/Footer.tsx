@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="footer footer--base footer--hidden">
+    <footer className="footer footer--base">
       <div className="container">
         <nav className="footer footer--main">
           <div className="flex flex--wrap grid">
