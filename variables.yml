@@ -1,0 +1,39 @@
+breakpoints:
+  a:
+    width: "default"
+    unit: "px"
+    grids:
+      - 16
+      - 12
+      - 10
+  b:
+    width: 1449
+    unit: "px"
+    grids: null
+  c:
+    width: 1279
+    unit: "px"
+    grids:
+      - 12
+  d:
+    width: 1099
+    unit: "px"
+    grids: null
+  e:
+    width: 979
+    unit: "px"
+    grids:
+      - 6
+  f:
+    width: 799
+    unit: "px"
+    grids:
+      - 6
+  g:
+    width: 649
+    unit: "px"
+    grids: null
+  h:
+    width: 449
+    unit: "px"
+    grids: null
