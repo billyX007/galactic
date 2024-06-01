@@ -1,6 +1,5 @@
 import HasSubnavMenuItem from "../base/client/HasSubnavMenuItem";
 import { LocaleNav } from "../base/client/LocaleNav";
-import MenuButton from "../base/client/MenuButton";
 
 export default function Header() {
   return (
@@ -14,7 +13,11 @@ export default function Header() {
           ></a>
           <div className="header__realspace-logo"></div>
           <LocaleNav />
-          <MenuButton />
+          <button
+            id="nav-toggle"
+            className="header__menu-toggle"
+            aria-label="Toggle menu"
+          />
           <nav className="nav" aria-label="Primary navigation">
             <div className="nav__container container">
               <a
