@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="footer footer--base">
@@ -99,42 +101,42 @@ export default function Footer() {
             <div className="grid__item a6-12 f6-6">
               <ul className="flex">
                 <li>
-                  <a
+                  <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="https://www.the-boundary.com/press"
+                    href="/press"
                   >
                     Press
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="https://www.the-boundary.com/legal/cookies"
+                    href="/legal/cookies"
                   >
                     Cookies
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="https://www.the-boundary.com/legal/terms"
+                    href="/legal/terms"
                   >
                     Terms
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="https://www.the-boundary.com/legal/privacy"
+                    href="/legal/privacy"
                   >
                     Privacy
-                  </a>
+                  </Link>
                 </li>
                 <li className="nowrap">
                   Site by{" "}
                   <a
                     className="footer__link footer__link--underline footer__link--credit"
-                    href="https://www.ten4design.co.uk/"
+                    href="#"
                   >
                     Ten4
                   </a>
@@ -145,7 +147,7 @@ export default function Footer() {
               <ul className="flex flex--align-end">
                 <li>
                   <a
-                    href="https://www.instagram.com/the_boundaryuk/"
+                    href="#"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     Instagram
@@ -153,7 +155,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/the-boundary-london"
+                    href="#"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     LinkedIn
@@ -161,7 +163,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.behance.net/theboundary"
+                    href="#"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     Behance
@@ -169,7 +171,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/theboundaryuk/"
+                    href="#"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     Facebook
@@ -177,7 +179,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/theboundaryuk"
+                    href="#"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     Twitter

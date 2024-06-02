@@ -3139,7 +3139,8 @@ body.realspace {
 }
 
 .header__realspace-logo {
-  background: url("/img/realspace-logo.svg") no-repeat;
+  background: url("https://cdn.the-boundary.com/assets/v20240503_082329/img/realspace-logo.svg")
+    no-repeat;
   background-size: contain;
   display: none;
   height: 28px;
@@ -4687,7 +4688,8 @@ body.realspace {
   padding: 5rem 0;
 }
 .realspace .section {
-  background: no-repeat url("/img/realspace-bg.svg");
+  background: no-repeat
+    url("https://cdn.the-boundary.com/assets/v20240503_082329/img/realspace-bg.svg");
   background-color: #1d2121;
   background-position: 100% top;
 }

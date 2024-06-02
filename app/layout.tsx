@@ -2,6 +2,7 @@ import Footer from "./components/footer/Footer";
 import "@/style/final.css";
 import Script from "next/script";
 import local from "@next/font/local";
+import AddClass from "./components/base/client/AddClass";
 
 const geomanist = local({
   variable: "--font-geomanist",
@@ -46,10 +47,11 @@ export default function RootLayout({
       {...{ "data-js-focus-visible": true }}
     >
       <body data-barba="wrapper" className={`js ${geomanist.className}`}>
+        <AddClass />
         {children}
         <Footer />
         <button className="back-to-top-button back-to-top-button--show"></button>
-        <Script src="/js/final.js" strategy="lazyOnload" />
+        <Script src="/js/final.js" strategy="afterInteractive" />
       </body>
     </html>
   );

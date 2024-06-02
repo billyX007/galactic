@@ -1,18 +1,62 @@
-import HasSubnavMenuItem from "../base/client/HasSubnavMenuItem";
-import { LocaleNav } from "../base/client/LocaleNav";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="header header--invert">
+    <header className="header">
       <div className="container">
         <div className="flex flex--justify-space-between relative">
-          <a
-            className="header__logo"
-            href="https://www.the-boundary.com/"
-            aria-label="Homepage"
-          ></a>
-          <div className="header__realspace-logo"></div>
-          <LocaleNav />
+          <Link className="header__logo" href="/" aria-label="Homepage" />
+          <div className="header__realspace-logo" />
+          <nav className="header__locale" aria-label="Website locale">
+            <button
+              id="locale-toggle"
+              className="header__locale-button"
+              data-region="uk-and-europe"
+              aria-label="Change your locale"
+            >
+              UK &amp; Europe
+            </button>
+            <div className="header__locale-options">
+              <ul data-barba-prevent="all">
+                <li>
+                  <button
+                    id="locale-link-uk-and-europe"
+                    data-url="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                    className="header__locale-option header__locale-option--selected"
+                  >
+                    UK &amp; Europe
+                  </button>
+                </li>
+                <li>
+                  <button
+                    id="locale-link-us"
+                    data-url="https://www.the-boundary.com/us/cgis-animations-cinemagraphs"
+                    className="header__locale-option"
+                  >
+                    USA
+                  </button>
+                </li>
+                <li>
+                  <button
+                    id="locale-link-gcc"
+                    data-url="https://www.the-boundary.com/gcc/cgis-animations-cinemagraphs"
+                    className="header__locale-option"
+                  >
+                    GCC
+                  </button>
+                </li>
+                <li>
+                  <button
+                    id="locale-link-apac"
+                    data-url="https://www.the-boundary.com/apac/cgis-animations-cinemagraphs"
+                    className="header__locale-option"
+                  >
+                    Asia-Pacific
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
           <button
             id="nav-toggle"
             className="header__menu-toggle"
@@ -20,127 +64,122 @@ export default function Header() {
           />
           <nav className="nav" aria-label="Primary navigation">
             <div className="nav__container container">
-              <a
+              <Link
                 className="nav__link nav__link--site-logo"
-                href="https://www.the-boundary.com/"
+                href="/"
                 aria-label="Home"
-              ></a>
+              />
               <div className="nav__navs-container a13-16 c12-12 flex flex--wrap">
                 <ul className="nav__main-nav">
-                  <HasSubnavMenuItem label="Work">
-                    <ul>
-                      <li>
-                        <a
-                          className="nav__link nav__link--subnav"
-                          href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
-                        >
-                          CGIs, Animations &amp; Cinemagraphs
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="nav__link nav__link--subnav"
-                          href="https://www.the-boundary.com/marketing-films"
-                        >
-                          Marketing Films
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="nav__link nav__link--subnav"
-                          href="https://www.the-boundary.com/virtual-tours"
-                        >
-                          Virtual Tours
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="nav__link nav__link--subnav"
-                          href="https://www.the-boundary.com/virtual-showrooms"
-                        >
-                          Virtual Showrooms
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="nav__link nav__link--subnav"
-                          href="https://www.the-boundary.com/digital-twins"
-                        >
-                          Digital Twins
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="nav__link nav__link--subnav"
-                          href="https://www.the-boundary.com/realspace"
-                        >
-                          Realspace Sales Platform
-                        </a>
-                      </li>
-                    </ul>
-                  </HasSubnavMenuItem>
-                  <li>
-                    <a
-                      className="nav__link"
-                      href="https://www.the-boundary.com/about"
+                  <li className="nav__item has-subnav" aria-expanded="true">
+                    <button
+                      className="nav__link nav__link--has-subnav"
+                      aria-expanded="false"
                     >
+                      Work
+                    </button>
+                    <div className="nav__subnav">
+                      <ul>
+                        <li>
+                          <Link
+                            className="nav__link nav__link--subnav"
+                            href="/cgis-animations-cinemagraphs"
+                          >
+                            CGIs, Animations &amp; Cinemagraphs
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="nav__link nav__link--subnav"
+                            href="/marketing-films"
+                          >
+                            Marketing Films
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="nav__link nav__link--subnav"
+                            href="/virtual-tours"
+                          >
+                            Virtual Tours
+                          </Link>
+                        </li>
+                        <li>
+                          <a
+                            className="nav__link nav__link--subnav"
+                            href="/virtual-showrooms"
+                          >
+                            Virtual Showrooms
+                          </a>
+                        </li>
+                        <li>
+                          <Link
+                            className="nav__link nav__link--subnav"
+                            href="/digital-twins"
+                          >
+                            Digital Twins
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="nav__link nav__link--subnav"
+                            href="/realspace"
+                          >
+                            Realspace Sales Platform
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <Link className="nav__link" href="/about">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      className="nav__link"
-                      href="https://www.the-boundary.com/people"
-                    >
+                    <Link className="nav__link" href="/people">
                       People
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      className="nav__link"
-                      href="https://www.the-boundary.com/enquiries"
-                    >
+                    <Link className="nav__link" href="/contact">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      className="nav__link"
-                      href="https://www.the-boundary.com/careers"
-                    >
+                    <Link className="nav__link" href="/careers">
                       Careers
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
-
               <nav className="footer footer--nav">
                 <div className="grid flex flex--wrap flex--justify-space-between footer__legal">
                   <div className="grid__item a6-12 f6-6">
                     <ul className="flex">
                       <li>
-                        <a
+                        <Link
                           className="footer__link footer__link--social footer__link--underline"
-                          href="https://www.the-boundary.com/press"
+                          href="/press"
                         >
                           Press
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="footer__link footer__link--social footer__link--underline"
-                          href="https://www.the-boundary.com/legal/cookies"
+                          href="/legal/cookies"
                         >
                           Cookies
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="footer__link footer__link--social footer__link--underline"
-                          href="https://www.the-boundary.com/legal/terms"
+                          href="/legal/terms"
                         >
                           Terms
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a
@@ -154,7 +193,7 @@ export default function Header() {
                         Site by{" "}
                         <a
                           className="footer__link footer__link--underline footer__link--credit"
-                          href="https://www.ten4design.co.uk/"
+                          href="#"
                         >
                           Ten4
                         </a>
@@ -165,7 +204,7 @@ export default function Header() {
                     <ul className="flex flex--align-end">
                       <li>
                         <a
-                          href="https://www.instagram.com/the_boundaryuk/"
+                          href="#"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           Instagram
@@ -173,7 +212,7 @@ export default function Header() {
                       </li>
                       <li>
                         <a
-                          href="https://www.linkedin.com/company/the-boundary-london"
+                          href="#"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           LinkedIn
@@ -181,7 +220,7 @@ export default function Header() {
                       </li>
                       <li>
                         <a
-                          href="https://www.behance.net/theboundary"
+                          href="#"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           Behance
@@ -189,7 +228,7 @@ export default function Header() {
                       </li>
                       <li>
                         <a
-                          href="https://www.facebook.com/theboundaryuk/"
+                          href="#"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           Facebook
@@ -197,7 +236,7 @@ export default function Header() {
                       </li>
                       <li>
                         <a
-                          href="https://twitter.com/theboundaryuk"
+                          href="#"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           Twitter
@@ -206,7 +245,7 @@ export default function Header() {
                     </ul>
                   </div>
                 </div>
-              </nav>
+              </nav>{" "}
             </div>
           </nav>
         </div>
