@@ -91,11 +91,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <a
-            className="footer__logo"
-            href="https://www.the-boundary.com/"
-            aria-label="Homepage"
-          ></a>
+          <Link className="footer__logo" href="/" aria-label="Homepage" />
 
           <div className="grid flex flex--wrap flex--justify-space-between footer__legal">
             <div className="grid__item a6-12 f6-6">

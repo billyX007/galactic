@@ -1,8 +1,12 @@
 import Link from "next/link";
 
-export default function Header() {
+interface HeaderProps {
+  className: string;
+}
+
+export default function Header({ className }: HeaderProps) {
   return (
-    <header className="header">
+    <header className={`header ${className}`}>
       <div className="container">
         <div className="flex flex--justify-space-between relative">
           <Link className="header__logo" href="/" aria-label="Homepage" />
