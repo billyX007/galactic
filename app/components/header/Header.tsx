@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 interface HeaderProps {
-  className: string;
+  className?: string;
 }
 
-export default function Header({ className }: HeaderProps) {
+export default function Header({ className = "" }: HeaderProps) {
   return (
     <header className={`header ${className}`}>
       <div className="container">
