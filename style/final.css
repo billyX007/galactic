@@ -2911,7 +2911,10 @@ body.realspace {
 }
 
 .footer__logo {
-  background-image: url("/img/logo.svg");
+  background-image: url("/img/logo/logo.svg");
+  /* Added new Line down*/
+  background-position: center center;
+  /* Added new Line up */
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -3114,10 +3117,10 @@ body.realspace {
 }
 
 .header__logo {
-  background: url("/img/logo-dark.svg") no-repeat;
+  background: url("/img/logo/logo-dark.svg") no-repeat;
   background-size: contain;
   display: block;
-  height: 40px;
+  height: 45px;
   width: 256px;
 }
 .header--logo-hidden .header__logo {
@@ -3125,15 +3128,15 @@ body.realspace {
 }
 .realspace .header__logo,
 .header--invert .header__logo {
-  background-image: url("/img/logo.svg");
+  background-image: url("/img/logo/logo.svg");
 }
 .header--sticky .header__logo {
-  background-image: url("/img/logo-dark.svg");
+  background-image: url("/img/logo/logo-dark.svg");
   display: block;
 }
 @media only screen and (max-width: 649px) {
   .header__logo {
-    height: 29px;
+    height: 32px;
     width: 186px;
   }
 }

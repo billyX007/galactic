@@ -1,3 +1,4 @@
+import Image from "next/image";
 import HomeClasses from "./components/base/client/HomeClasses";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
@@ -18,10 +19,13 @@ export default function Home() {
                   className="hero hero--home"
                   style={{
                     backgroundImage:
-                      "url( 'https://cdn.the-boundary.com/uploads/about/_carousel_poster/35001/tbhomepageposter.webp?v=1710865632' )",
+                      "url( '/img/img-placeholders/placeholder.jpg' )",
+                    backgroundSize: "cover",
+                    // backgroundImage:
+                    //   "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
                   }}
                 >
-                  <video
+                  {/* <video
                     className="hero__video"
                     src="https://player.vimeo.com/progressive_redirect/playback/788307741/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=7f7bb92698d7502f7a435cadb026058b2e7b29fc9ac6ce36ea9964a2195adb84"
                     poster="https://cdn.the-boundary.com/uploads/about/_carousel_poster/35001/tbhomepageposter.webp?v=1710865632"
@@ -29,19 +33,18 @@ export default function Home() {
                     muted
                     loop
                     autoPlay
-                  />
+                  /> */}
 
                   <div className="hero__arrow"></div>
                 </div>
               </section>
             </a>
-
             <div className="hero__headline-container revealable-container">
               <div
                 className="a10-16 f6-6 revealable hero__headline"
                 style={{ transform: "translateY(0%); opacity: 1" }}
               >
-                Blurring the boundary between the imagined and the real
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
               </div>
 
               <div className="revealable-container">
@@ -51,7 +54,7 @@ export default function Home() {
                 >
                   <a
                     className="mt-32 button button--fill-white button--rounded"
-                    href="https://www.the-boundary.com/contact"
+                    href="#"
                   >
                     Discuss your project
                   </a>
@@ -59,6 +62,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+
           <div id="start" className="relative">
             <div className="carousel-nav">
               <div className="container container--bleed-right-f">
@@ -68,25 +72,37 @@ export default function Home() {
                     className="carousel-nav__item"
                   >
                     <a href="#cgis-animations-cinemagraphs">
-                      CGIs, Animations &amp; Cinemagraphs
+                      Neque porro quisquam
                     </a>
                   </li>
-                  <li data-id="marketing-films" className="carousel-nav__item">
+                  <li
+                    data-id="marketing-films"
+                    className="carousel-nav__item invisible"
+                  >
                     <a href="#marketing-films">Marketing Films</a>
                   </li>
-                  <li data-id="virtual-tours" className="carousel-nav__item">
+                  <li
+                    data-id="virtual-tours"
+                    className="carousel-nav__item invisible"
+                  >
                     <a href="#virtual-tours">Virtual Tours</a>
                   </li>
                   <li
                     data-id="virtual-showrooms"
-                    className="carousel-nav__item"
+                    className="carousel-nav__item invisible"
                   >
                     <a href="#virtual-showrooms">Virtual Showrooms</a>
                   </li>
-                  <li data-id="digital-twins" className="carousel-nav__item">
+                  <li
+                    data-id="digital-twins"
+                    className="carousel-nav__item invisible"
+                  >
                     <a href="#digital-twins">Digital Twins</a>
                   </li>
-                  <li data-id="realspace" className="carousel-nav__item">
+                  <li
+                    data-id="realspace"
+                    className="carousel-nav__item invisible"
+                  >
                     <a href="#realspace">Realspace Sales Platform</a>
                   </li>
                 </ul>
@@ -122,10 +138,12 @@ export default function Home() {
                       className="hp-carousel__slide carousel__slide carousel__slide--video hp-carousel__slide--video viewing"
                       style={{
                         backgroundImage:
-                          "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
+                          "url( '/img/img-placeholders/placeholder.jpg' )",
+                        // backgroundImage:
+                        //   "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
                       }}
                     >
-                      <video
+                      {/* <video
                         className="hp-carousel__video"
                         src="https://player.vimeo.com/progressive_redirect/playback/787297322/rendition/1080p/file.mp4?loc=external&amp;signature=8cd9096dd33782e32d3d9402262a7f546ea501e811ba32492c66e7e2f648d8c0#t=0.1"
                         playsInline
@@ -133,26 +151,20 @@ export default function Home() {
                         loop
                         preload="none"
                         poster="https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397"
-                      ></video>
+                      ></video> */}
 
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/the-whiteley-london">
-                              The Whiteley London
-                            </a>
+                            <a href="#">Neque porro quisquam</a>
                           </h2>
-                          <a
-                            className="hp-carousel__link"
-                            href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
-                          >
-                            View all CGIs, Animations &amp; Cinemagraphs case
-                            studies
+                          <a className="hp-carousel__link" href="#">
+                            Lorem ipsum dolor sit amet, consectetur
                           </a>
                         </div>
                       </div>
                     </div>
-
+                    {/* 
                     <div
                       className="hp-carousel__slide carousel__slide carousel__slide--video hp-carousel__slide--video"
                       style={{
@@ -221,18 +233,21 @@ export default function Home() {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div
                       className="hp-carousel__slide carousel__slide"
                       style={{
                         backgroundImage:
-                          "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/75190/WaldorfExterior07.webp?v=1708509400' )",
+                          "url( '/img/img-placeholders/placeholder.jpg' )",
+                        // backgroundImage:
+                        //   "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
                       }}
                     >
-                      <img
+                      <Image
                         className="hp-carousel__image"
-                        src="https://cdn.the-boundary.com/uploads/_hero/75190/WaldorfExterior07.webp?v=1710435893"
+                        src="/img/img-placeholders/placeholder.jpg"
+                        // src="https://cdn.the-boundary.com/uploads/_hero/75190/WaldorfExterior07.webp?v=1710435893"
                         width="2160"
                         height="1440"
                         alt=""
@@ -242,16 +257,10 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/waldorf-astoria">
-                              Waldorf Astoria
-                            </a>
+                            <a href="#">Sed ut perspiciatis</a>
                           </h2>
-                          <a
-                            className="hp-carousel__link"
-                            href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
-                          >
-                            View all CGIs, Animations &amp; Cinemagraphs case
-                            studies
+                          <a className="hp-carousel__link" href="#">
+                            Nemo enim ipsam voluptatem quia voluptas
                           </a>
                         </div>
                       </div>
@@ -261,7 +270,7 @@ export default function Home() {
               </div>
             </section>
 
-            <section className="scroll-container__section" id="marketing-films">
+            {/* <section className="scroll-container__section" id="marketing-films">
               <div className="hp-carousel carousel--homepage">
                 <div className="container">
                   <div className="hp-carousel__buttons">
@@ -771,7 +780,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
           </div>
 
           <section className="scroll-container__section">

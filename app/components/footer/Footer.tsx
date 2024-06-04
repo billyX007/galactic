@@ -9,13 +9,13 @@ export default function Footer() {
             <div className="grid__item a3-12 c4-12 f6-6">
               <div className="footer__section">
                 <h2 className="footer__heading">
-                  Dean Kennedy
+                  John Doe
                   <br />
                   Business Development Director UK
                 </h2>
                 <p className="">
-                  <a href="mailto:dean@the-boundary.com" target="_blank">
-                    dean@the-boundary.com
+                  <a href="#" target="_blank">
+                    johndoe@email.com
                   </a>
                 </p>
               </div>
@@ -24,19 +24,20 @@ export default function Footer() {
             <div className="grid__item a3-12 c4-12 f6-6">
               <div className="footer__section">
                 <h2 className="footer__heading">London</h2>
-                <p className="">+44 (0) 203 026 6270</p>
+                <p className="">+44 (0) 123 123 1234</p>
               </div>
               <div className="footer__section">
                 <p>
-                  Academic House, 24-28 Oval Road
+                  Oval Road
                   <br />
                   London
                   <br />
-                  NW1 7DJ
+                  DGW 1234
                   <br />
                   <a
                     className="footer__link footer__link--underline"
-                    href="https://maps.app.goo.gl/cxGASuKyNbHNxMfb6"
+                    href="#"
+                    // href="https://maps.app.goo.gl/cxGASuKyNbHNxMfb6"
                     target="_blank"
                   >
                     Map
@@ -47,19 +48,20 @@ export default function Footer() {
             <div className="grid__item a3-12 c4-12 f6-6">
               <div className="footer__section">
                 <h2 className="footer__heading">New York City</h2>
-                <p className="">+1 (646) 661 5616</p>
+                <p className="">+1 (123) 123 1234</p>
               </div>
               <div className="footer__section">
                 <p>
-                  The Graybar Building
+                  The Great Building
                   <br />
                   New York City
                   <br />
-                  10170
+                  12345
                   <br />
                   <a
                     className="footer__link footer__link--underline"
-                    href="https://goo.gl/maps/TERCbeq1AqYfcBCZ7"
+                    href="#"
+                    // href="https://goo.gl/maps/TERCbeq1AqYfcBCZ7"
                     target="_blank"
                   >
                     Map
@@ -70,15 +72,15 @@ export default function Footer() {
             <div className="grid__item a3-12 c4-12 f6-6">
               <div className="footer__section">
                 <h2 className="footer__heading">Auckland</h2>
-                <p className="">+64 9 3666 468</p>
+                <p className="">+64 1 2344 456</p>
               </div>
               <div className="footer__section">
                 <p>
-                  24b Spring Street
+                  24b Autumn Avenue
                   <br />
                   Auckland
                   <br />
-                  1011
+                  1234
                   <br />
                   <a
                     className="footer__link footer__link--underline"
@@ -99,7 +101,8 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="/press"
+                    href="#"
+                    // href="/press"
                   >
                     Press
                   </Link>
@@ -107,7 +110,8 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="/legal/cookies"
+                    href="#"
+                    // href="/legal/cookies"
                   >
                     Cookies
                   </Link>
@@ -115,7 +119,8 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="/legal/terms"
+                    href="#"
+                    // href="/legal/terms"
                   >
                     Terms
                   </Link>
@@ -123,12 +128,13 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="/legal/privacy"
+                    href="#"
+                    // href="/legal/privacy"
                   >
                     Privacy
                   </Link>
                 </li>
-                <li className="nowrap">
+                {/* <li className="nowrap">
                   Site by{" "}
                   <a
                     className="footer__link footer__link--underline footer__link--credit"
@@ -136,7 +142,7 @@ export default function Footer() {
                   >
                     Ten4
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="grid__item f6-6">

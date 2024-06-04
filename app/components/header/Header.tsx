@@ -11,7 +11,7 @@ export default function Header({ className = "" }: HeaderProps) {
         <div className="flex flex--justify-space-between relative">
           <Link className="header__logo" href="/" aria-label="Homepage" />
           <div className="header__realspace-logo" />
-          <nav className="header__locale" aria-label="Website locale">
+          {/* <nav className="header__locale" aria-label="Website locale">
             <button
               id="locale-toggle"
               className="header__locale-button"
@@ -60,12 +60,13 @@ export default function Header({ className = "" }: HeaderProps) {
                 </li>
               </ul>
             </div>
-          </nav>
-          <button
-            id="nav-toggle"
+          </nav> */}
+          {/* <button
+            // id="nav-toggle"
+            id="nav-toggles"
             className="header__menu-toggle"
             aria-label="Toggle menu"
-          />
+          /> */}
           <nav className="nav" aria-label="Primary navigation">
             <div className="nav__container container">
               <Link
