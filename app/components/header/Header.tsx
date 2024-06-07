@@ -25,7 +25,7 @@ export default function Header({ className = "" }: HeaderProps) {
                 <li>
                   <button
                     id="locale-link-uk-and-europe"
-                    data-url="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                    data-url="/cgis-animations-cinemagraphs"
                     className="header__locale-option header__locale-option--selected"
                   >
                     UK &amp; Europe
@@ -34,7 +34,7 @@ export default function Header({ className = "" }: HeaderProps) {
                 <li>
                   <button
                     id="locale-link-us"
-                    data-url="https://www.the-boundary.com/us/cgis-animations-cinemagraphs"
+                    data-url="/us/cgis-animations-cinemagraphs"
                     className="header__locale-option"
                   >
                     USA
@@ -43,7 +43,7 @@ export default function Header({ className = "" }: HeaderProps) {
                 <li>
                   <button
                     id="locale-link-gcc"
-                    data-url="https://www.the-boundary.com/gcc/cgis-animations-cinemagraphs"
+                    data-url="/gcc/cgis-animations-cinemagraphs"
                     className="header__locale-option"
                   >
                     GCC
@@ -52,7 +52,7 @@ export default function Header({ className = "" }: HeaderProps) {
                 <li>
                   <button
                     id="locale-link-apac"
-                    data-url="https://www.the-boundary.com/apac/cgis-animations-cinemagraphs"
+                    data-url="/apac/cgis-animations-cinemagraphs"
                     className="header__locale-option"
                   >
                     Asia-Pacific
@@ -61,12 +61,11 @@ export default function Header({ className = "" }: HeaderProps) {
               </ul>
             </div>
           </nav> */}
-          {/* <button
-            // id="nav-toggle"
-            id="nav-toggles"
+          <button
+            id="nav-toggle"
             className="header__menu-toggle"
             aria-label="Toggle menu"
-          /> */}
+          />
           <nav className="nav" aria-label="Primary navigation">
             <div className="nav__container container">
               <Link
@@ -189,12 +188,12 @@ export default function Header({ className = "" }: HeaderProps) {
                       <li>
                         <a
                           className="footer__link footer__link--social footer__link--underline"
-                          href="https://www.the-boundary.com/legal/privacy"
+                          href="/legal/privacy"
                         >
                           Privacy
                         </a>
                       </li>
-                      <li className="nowrap">
+                      {/* <li className="nowrap">
                         Site by{" "}
                         <a
                           className="footer__link footer__link--underline footer__link--credit"
@@ -202,14 +201,14 @@ export default function Header({ className = "" }: HeaderProps) {
                         >
                           Ten4
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className="grid__item f6-6">
                     <ul className="flex flex--align-end">
                       <li>
                         <a
-                          href="#"
+                          href="https://www.instagram.com/galacticlabshq/?next=%2Fyugalabs%2F"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           Instagram
@@ -217,31 +216,31 @@ export default function Header({ className = "" }: HeaderProps) {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="https://t.me/GalacticLabsHQ"
                           className="footer__link footer__link--social footer__link--underline"
                         >
-                          LinkedIn
+                          Telegram
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="https://discord.gg/37BQ8qn9g5"
                           className="footer__link footer__link--social footer__link--underline"
                         >
-                          Behance
+                          Discord
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="https://www.tiktok.com/@galacticlabs"
                           className="footer__link footer__link--social footer__link--underline"
                         >
-                          Facebook
+                          Tiktok
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="https://twitter.com/GalacticLabsHQ"
                           className="footer__link footer__link--social footer__link--underline"
                         >
                           Twitter

@@ -283,10 +283,7 @@ export default function About() {
                         patterns.
                       </p>
                     </div>
-                    <a
-                      className="about-blocks__link"
-                      href="https://www.the-boundary.com/people"
-                    >
+                    <a className="about-blocks__link" href="/people">
                       Learn more
                     </a>
                   </div>
@@ -316,10 +313,7 @@ export default function About() {
                         and functionality to life.
                       </p>
                     </div>
-                    <a
-                      className="about-blocks__link"
-                      href="https://www.the-boundary.com/contact"
-                    >
+                    <a className="about-blocks__link" href="/contact">
                       Contact us
                     </a>
                   </div>

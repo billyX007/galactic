@@ -11,6 +11,10 @@ export default function AddClass() {
       document.body.classList.add("home");
       return;
     }
+    if (pathname.includes("vacancy")) {
+      document.body.classList.add("default");
+      return;
+    }
     document.body.classList.add(split[1]);
     return () => {
       if (pathname === "/") {

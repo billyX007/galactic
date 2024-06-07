@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header/Header";
+import Link from "next/link";
 
 export default function DigitalTwins() {
   return (
@@ -45,12 +46,12 @@ export default function DigitalTwins() {
                 className="revealable"
                 style={{ transform: "translateY(0%)", opacity: 1 }}
               >
-                <a
+                <Link
                   className="mt-32 button button--fill-green button--rounded"
-                  href="https://www.the-boundary.com/contact"
+                  href="/contact"
                 >
                   Discuss your project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -332,8 +333,8 @@ export default function DigitalTwins() {
           <div className="results container page__spacing-xs">
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/ancora-collins-wharf-digital-twin"
+                <Link
+                  href="/work/ancora-collins-wharf-digital-twin"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -358,11 +359,11 @@ export default function DigitalTwins() {
                       Ancora at Collins Wharf Digital Twin
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/kinma-valley"
+                <Link
+                  href="/work/kinma-valley"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -385,11 +386,11 @@ export default function DigitalTwins() {
                   <div className="listing__content">
                     <div className="listing__title">Kinma Valley</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/wellington-digital-twin"
+                <Link
+                  href="/work/wellington-digital-twin"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -414,11 +415,11 @@ export default function DigitalTwins() {
                       Wellington Digital Twin
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/auckland-digital-twin"
+                <Link
+                  href="/work/auckland-digital-twin"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -441,13 +442,13 @@ export default function DigitalTwins() {
                   <div className="listing__content">
                     <div className="listing__title">Auckland Digital Twin</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/northport-digital-twin"
+                <Link
+                  href="/work/northport-digital-twin"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -470,11 +471,11 @@ export default function DigitalTwins() {
                   <div className="listing__content">
                     <div className="listing__title">Northport Digital Twin</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/christchurch-airport-2040"
+                <Link
+                  href="/work/christchurch-airport-2040"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -499,11 +500,11 @@ export default function DigitalTwins() {
                       Christchurch Airport 2040
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/tauranga"
+                <Link
+                  href="/work/tauranga"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -526,11 +527,11 @@ export default function DigitalTwins() {
                   <div className="listing__content">
                     <div className="listing__title">Tauranga Digital Twin</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/te-awa-lakes-digital-twin"
+                <Link
+                  href="/work/te-awa-lakes-digital-twin"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -555,11 +556,11 @@ export default function DigitalTwins() {
                       Te Awa Lakes Digital Twin
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/ormiston-digital-twin"
+                <Link
+                  href="/work/ormiston-digital-twin"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -582,11 +583,11 @@ export default function DigitalTwins() {
                   <div className="listing__content">
                     <div className="listing__title">Ormiston Digital Twin</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/royale-gold-coast"
+                <Link
+                  href="/work/royale-gold-coast"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -609,7 +610,7 @@ export default function DigitalTwins() {
                   <div className="listing__content">
                     <div className="listing__title">Royale Gold Coast</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -635,12 +636,12 @@ export default function DigitalTwins() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>

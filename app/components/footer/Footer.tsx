@@ -101,8 +101,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="#"
-                    // href="/press"
+                    href="/press"
                   >
                     Press
                   </Link>
@@ -110,8 +109,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="#"
-                    // href="/legal/cookies"
+                    href="/legal/cookies"
                   >
                     Cookies
                   </Link>
@@ -119,8 +117,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="#"
-                    // href="/legal/terms"
+                    href="/legal/terms"
                   >
                     Terms
                   </Link>
@@ -128,8 +125,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className="footer__link footer__link--social footer__link--underline"
-                    href="#"
-                    // href="/legal/privacy"
+                    href="/legal/privacy"
                   >
                     Privacy
                   </Link>
@@ -149,7 +145,7 @@ export default function Footer() {
               <ul className="flex flex--align-end">
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/galacticlabshq/?next=%2Fyugalabs%2F"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     Instagram
@@ -157,31 +153,31 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://t.me/GalacticLabsHQ"
                     className="footer__link footer__link--social footer__link--underline"
                   >
-                    LinkedIn
+                    Telegram
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://discord.gg/37BQ8qn9g5"
                     className="footer__link footer__link--social footer__link--underline"
                   >
-                    Behance
+                    Discord
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.tiktok.com/@galacticlabs"
                     className="footer__link footer__link--social footer__link--underline"
                   >
-                    Facebook
+                    Tiktok
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://twitter.com/GalacticLabsHQ"
                     className="footer__link footer__link--social footer__link--underline"
                   >
                     Twitter

@@ -78,7 +78,7 @@ export default function Careers() {
               <h2 className="h h--reduce-f">Current Vacancies</h2>
               <ul className="vacancies">
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/junior-level-architectural-visualisation-artist-london-2">
+                  <a href="/careers/vacancy/associate-level-artist-london">
                     <span className="a6-16 f6-6">
                       Junior Level Architectural Visualisation Artist - London
                     </span>
@@ -94,7 +94,7 @@ export default function Careers() {
                   </a>
                 </li>
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/associate-level-artist-london">
+                  <a href="/careers/vacancy/associate-level-artist-london">
                     <span className="a6-16 f6-6">
                       Associate Level Artist - London
                     </span>
@@ -110,7 +110,7 @@ export default function Careers() {
                   </a>
                 </li>
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/realtime-architectural-modeller-auckland">
+                  <a href="/careers/vacancy/realtime-architectural-modeller-auckland">
                     <span className="a6-16 f6-6">
                       Junior/Intermediate Realtime Architectural Modeller -
                       Auckland
@@ -127,7 +127,7 @@ export default function Careers() {
                   </a>
                 </li>
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/mid-level-architectural-visualisation-artist-london">
+                  <a href="/careers/vacancy/mid-level-architectural-visualisation-artist-london">
                     <span className="a6-16 f6-6">
                       Mid-level Architectural Visualisation Artist - London
                     </span>
@@ -143,7 +143,7 @@ export default function Careers() {
                   </a>
                 </li>
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/3d-unreal-artist-auckland">
+                  <a href="/careers/vacancy/3d-unreal-artist-auckland">
                     <span className="a6-16 f6-6">
                       3D Unreal Artist - Auckland
                     </span>
@@ -159,7 +159,7 @@ export default function Careers() {
                   </a>
                 </li>
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/senior-architectural-visualisation-artist-london">
+                  <a href="/careers/vacancy/senior-architectural-visualisation-artist-london">
                     <span className="a6-16 f6-6">
                       Senior Architectural Visualisation Artist - London
                     </span>
@@ -175,7 +175,7 @@ export default function Careers() {
                   </a>
                 </li>
                 <li className="vacancies__item">
-                  <a href="https://www.the-boundary.com/careers/vacancy/freelance-artist-london-4">
+                  <a href="/careers/vacancy/freelance-artist-london-4">
                     <span className="a6-16 f6-6">
                       Freelance Artist - London
                     </span>
@@ -249,10 +249,7 @@ export default function Careers() {
                   />
                 </div>
                 <div className="grid__item a4-12 f6-6">
-                  <a
-                    className="careers-footer__link"
-                    href="https://www.the-boundary.com/people"
-                  >
+                  <a className="careers-footer__link" href="/people">
                     Meet the team
                   </a>
                 </div>

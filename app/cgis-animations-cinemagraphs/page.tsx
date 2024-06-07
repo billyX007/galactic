@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header/Header";
+import Link from "next/link";
 
 export default function CGIAnimationCinemagraphs() {
   return (
@@ -48,12 +49,12 @@ export default function CGIAnimationCinemagraphs() {
                 className="revealable"
                 style={{ transform: "translateY(0%)", opacity: 1 }}
               >
-                <a
+                <Link
                   className="mt-32 button button--fill-green button--rounded"
-                  href="https://www.the-boundary.com/contact"
+                  href="/contact"
                 >
                   Discuss your project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -360,8 +361,8 @@ export default function CGIAnimationCinemagraphs() {
           <div className="results container page__spacing-xs">
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-whiteley-london"
+                <Link
+                  href="/work/the-whiteley-london"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -384,11 +385,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">The Whiteley London</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/1428-brickell"
+                <Link
+                  href="/work/1428-brickell"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -413,11 +414,11 @@ export default function CGIAnimationCinemagraphs() {
                       The Residence at 1428 Brickell
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/waldorf-astoria"
+                <Link
+                  href="/work/waldorf-astoria"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -433,11 +434,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Waldorf Astoria</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/611-west-56th-street"
+                <Link
+                  href="/work/611-west-56th-street"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -460,13 +461,13 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">611 West 56th Street</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-clay-yard"
+                <Link
+                  href="/work/the-clay-yard"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -489,11 +490,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">The Clay Yard</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/100-george-street"
+                <Link
+                  href="/work/100-george-street"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -509,11 +510,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">100 George Street</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/barts-square"
+                <Link
+                  href="/work/barts-square"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -536,11 +537,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Barts Square</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/waldorf-astoria-residences"
+                <Link
+                  href="/work/waldorf-astoria-residences"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -558,11 +559,11 @@ export default function CGIAnimationCinemagraphs() {
                       Waldorf Astoria Residences
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/mercedes-benz-places"
+                <Link
+                  href="/work/mercedes-benz-places"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -578,11 +579,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Mercedes-Benz Places</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-residences-at-mandarin-oriental"
+                <Link
+                  href="/work/the-residences-at-mandarin-oriental"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -600,11 +601,11 @@ export default function CGIAnimationCinemagraphs() {
                       The Residences at Mandarin Oriental
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/rosewood-dallas"
+                <Link
+                  href="/work/rosewood-dallas"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -629,11 +630,11 @@ export default function CGIAnimationCinemagraphs() {
                       Rosewood Residences Dallas
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/rosewood-bermuda"
+                <Link
+                  href="/work/rosewood-bermuda"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -658,11 +659,11 @@ export default function CGIAnimationCinemagraphs() {
                       Rosewood Residences Bermuda
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/rosewood-beverly-hills"
+                <Link
+                  href="/work/rosewood-beverly-hills"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -687,11 +688,11 @@ export default function CGIAnimationCinemagraphs() {
                       Rosewood Residences Beverly Hills
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/ritz-carlton-residences"
+                <Link
+                  href="/work/ritz-carlton-residences"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -709,11 +710,11 @@ export default function CGIAnimationCinemagraphs() {
                       The Ritz-Carlton Residences
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/shore-club"
+                <Link
+                  href="/work/shore-club"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -729,11 +730,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Shore Club</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/flagler-towers"
+                <Link
+                  href="/work/flagler-towers"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -749,11 +750,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Flagler Towers</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/five-park-miami-beach"
+                <Link
+                  href="/work/five-park-miami-beach"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -776,11 +777,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Five Park Miami Beach</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/cipriani-residences"
+                <Link
+                  href="/work/cipriani-residences"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -796,11 +797,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Cipriani Residences</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-perigon"
+                <Link
+                  href="/work/the-perigon"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -816,11 +817,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">The Perigon</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/shell-bay-residences"
+                <Link
+                  href="/work/shell-bay-residences"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -836,11 +837,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Shell Bay Residences</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/habitat-los-angeles"
+                <Link
+                  href="/work/habitat-los-angeles"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -856,11 +857,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Habitat Los Angeles</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/elements-budds-beach"
+                <Link
+                  href="/work/elements-budds-beach"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -876,11 +877,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Elements Budds Beach</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/arc-residences"
+                <Link
+                  href="/work/arc-residences"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -903,11 +904,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Arc Residences</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/eighty-seven-park"
+                <Link
+                  href="/work/eighty-seven-park"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -930,11 +931,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Eighty Seven Park</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/forma-towers"
+                <Link
+                  href="/work/forma-towers"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -957,11 +958,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Forma Towers</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/565-broome-soho"
+                <Link
+                  href="/work/565-broome-soho"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -977,11 +978,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">565 Broome SoHo</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/one-crown-place"
+                <Link
+                  href="/work/one-crown-place"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -997,11 +998,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">One Crown Place</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/152-elizabeth-street"
+                <Link
+                  href="/work/152-elizabeth-street"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1017,11 +1018,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">152 Elizabeth Street</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/toranomon-hills"
+                <Link
+                  href="/work/toranomon-hills"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1044,11 +1045,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Toranomon Hills</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-forest-v"
+                <Link
+                  href="/work/the-forest-v"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1071,11 +1072,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">The Forest V</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-cedar"
+                <Link
+                  href="/work/the-cedar"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1091,11 +1092,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">The Cedar</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/one-bennett-park"
+                <Link
+                  href="/work/one-bennett-park"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1111,11 +1112,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">One Bennett Park</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/70-vestry"
+                <Link
+                  href="/work/70-vestry"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1131,11 +1132,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">70 Vestry</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/111-north"
+                <Link
+                  href="/work/111-north"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1158,11 +1159,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">111 North</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/waterline-square"
+                <Link
+                  href="/work/waterline-square"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1178,11 +1179,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Waterline Square</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/beckford-house"
+                <Link
+                  href="/work/beckford-house"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1207,11 +1208,11 @@ export default function CGIAnimationCinemagraphs() {
                       Beckford House &amp; Tower
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/one-clinton-street"
+                <Link
+                  href="/work/one-clinton-street"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1227,11 +1228,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">One Clinton Street</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/magazine-street-residence"
+                <Link
+                  href="/work/magazine-street-residence"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1249,11 +1250,11 @@ export default function CGIAnimationCinemagraphs() {
                       Magazine Street Residence
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/stockholm-apartment"
+                <Link
+                  href="/work/stockholm-apartment"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1269,11 +1270,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Stockholm Apartment</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/st-regis-hotel-venice"
+                <Link
+                  href="/work/st-regis-hotel-venice"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1296,11 +1297,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">St Regis Hotel Venice</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/glenstone"
+                <Link
+                  href="/work/glenstone"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1316,11 +1317,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Glenstone</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/hunter-house"
+                <Link
+                  href="/work/hunter-house"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1343,11 +1344,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Hunter House</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/city-walk-central-park"
+                <Link
+                  href="/work/city-walk-central-park"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1363,11 +1364,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">City Walk Central Park</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/alarous"
+                <Link
+                  href="/work/alarous"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1383,11 +1384,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">AlArous</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/nobu-residences"
+                <Link
+                  href="/work/nobu-residences"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1403,11 +1404,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Nobu Residences</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/maybach-s-class"
+                <Link
+                  href="/work/maybach-s-class"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1423,11 +1424,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Maybach S-Class</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/mercedes-gla"
+                <Link
+                  href="/work/mercedes-gla"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1443,11 +1444,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Mercedes GLA</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/gls-maybach"
+                <Link
+                  href="/work/gls-maybach"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1463,11 +1464,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">GLS Maybach</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/maybach-2022"
+                <Link
+                  href="/work/maybach-2022"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1483,11 +1484,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Maybach 2022</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/2000-ocean"
+                <Link
+                  href="/work/2000-ocean"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1503,11 +1504,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">2000 Ocean</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/superhouse"
+                <Link
+                  href="/work/superhouse"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1523,11 +1524,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Superhouse</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/carey-house"
+                <Link
+                  href="/work/carey-house"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1543,11 +1544,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Carey House</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/staithe-end"
+                <Link
+                  href="/work/staithe-end"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1563,11 +1564,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Staithe End</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/aurora-event-centre"
+                <Link
+                  href="/work/aurora-event-centre"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1583,11 +1584,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Aurora Event Centre</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/akili-tower"
+                <Link
+                  href="/work/akili-tower"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1603,11 +1604,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Akili Tower</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/case-furniture"
+                <Link
+                  href="/work/case-furniture"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1623,11 +1624,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">Case Furniture</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/one-bangkok"
+                <Link
+                  href="/work/one-bangkok"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1643,11 +1644,11 @@ export default function CGIAnimationCinemagraphs() {
                   <div className="listing__content">
                     <div className="listing__title">One Bangkok</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/anne-moma-virtual-gallery"
+                <Link
+                  href="/work/anne-moma-virtual-gallery"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -1665,7 +1666,7 @@ export default function CGIAnimationCinemagraphs() {
                       Anne Moma Virtual Gallery
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1691,12 +1692,12 @@ export default function CGIAnimationCinemagraphs() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>

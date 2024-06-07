@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../../components/header/Header";
+import Link from "next/link";
 
 export default function Slug() {
   return (
@@ -50,27 +51,24 @@ export default function Slug() {
                   <nav className="breadcrumbs-bar__breadcrumbs">
                     <ol>
                       <li>
-                        <a
+                        <Link
                           className="breadcrumbs-bar__link"
-                          href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                          href="/cgis-animations-cinemagraphs"
                         >
                           CGIs, Animations &amp; Cinemagraphs
-                        </a>
+                        </Link>
                       </li>
                       <li>The Whiteley London</li>
                     </ol>
                   </nav>
-                  <a
-                    href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                  <Link
+                    href="/cgis-animations-cinemagraphs"
                     className="breadcrumbs-bar__back-to-sector"
                     aria-label="Back to top"
                   />
-                  <a
-                    className="breadcrumbs-bar__link"
-                    href="https://www.the-boundary.com/contact"
-                  >
+                  <Link className="breadcrumbs-bar__link" href="/contact">
                     Contact us
-                  </a>
+                  </Link>
                   <button
                     className="breadcrumbs-bar__back-to-top"
                     aria-label="Back to top"
@@ -214,12 +212,12 @@ export default function Slug() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -869,12 +867,12 @@ export default function Slug() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1438,12 +1436,12 @@ export default function Slug() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get a Quote
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1455,10 +1453,7 @@ export default function Slug() {
               <h2 className="lh">Related projects</h2>
               <div className="grid flex flex--wrap">
                 <div className="grid__item a8-16 f6-6">
-                  <a
-                    className="project-listing"
-                    href="https://www.the-boundary.com/work/1428-brickell"
-                  >
+                  <Link className="project-listing" href="/work/1428-brickell">
                     <div className="project-listing__image">
                       <Image
                         src="https://cdn.the-boundary.com/uploads/_listing_image/3879/brickell29.webp?v=1710435918"
@@ -1471,12 +1466,12 @@ export default function Slug() {
                     <p className="project-listing__title">
                       The Residence at 1428 Brickell
                     </p>
-                  </a>
+                  </Link>
                 </div>
                 <div className="grid__item a8-16 f6-6">
-                  <a
+                  <Link
                     className="project-listing"
-                    href="https://www.the-boundary.com/work/waldorf-astoria-films"
+                    href="/work/waldorf-astoria-films"
                   >
                     <div className="project-listing__image">
                       <Image
@@ -1488,19 +1483,19 @@ export default function Slug() {
                       />
                     </div>
                     <p className="project-listing__title">Waldorf Astoria</p>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="page__spacing-lg">
-              <a
+              <Link
                 className="project-listing__more-link"
-                href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                href="/cgis-animations-cinemagraphs"
               >
                 <span>
                   All CGIs, Animations &amp; Cinemagraphs case studies
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </section>

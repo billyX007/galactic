@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header/Header";
+import Link from "next/link";
 
 export default function Realspace() {
   return (
@@ -67,12 +68,12 @@ export default function Realspace() {
                 className="revealable"
                 style={{ transform: "translateY(0%)", opacity: 1 }}
               >
-                <a
+                <Link
                   className="mt-32 button button--fill-green button--rounded"
-                  href="https://www.the-boundary.com/contact"
+                  href="/contact"
                 >
                   Discuss your project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -304,8 +305,8 @@ export default function Realspace() {
           <div className="results container page__spacing-xs">
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/ancora-collins-wharf-realspace"
+                <Link
+                  href="/work/ancora-collins-wharf-realspace"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -330,11 +331,11 @@ export default function Realspace() {
                       Ancora at Collins Wharf Realspace
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/elements-budds-beach-realspace"
+                <Link
+                  href="/work/elements-budds-beach-realspace"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -359,11 +360,11 @@ export default function Realspace() {
                       Elements Budds Beach Realspace
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/park-quarter-realspace"
+                <Link
+                  href="/work/park-quarter-realspace"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -379,11 +380,11 @@ export default function Realspace() {
                   <div className="listing__content">
                     <div className="listing__title">Park Quarter Realspace</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/collins-wharf-realspace"
+                <Link
+                  href="/work/collins-wharf-realspace"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -408,13 +409,13 @@ export default function Realspace() {
                       Regatta at Collins Wharf Realspace
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/collins-wharf"
+                <Link
+                  href="/work/collins-wharf"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -437,7 +438,7 @@ export default function Realspace() {
                   <div className="listing__content">
                     <div className="listing__title">Collins Wharf</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -463,12 +464,12 @@ export default function Realspace() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1752,10 +1752,7 @@ export default function People() {
                   />
                 </div>
                 <div className="grid__item a4-12 f6-6">
-                  <a
-                    className="careers-footer__link"
-                    href="https://www.the-boundary.com/about"
-                  >
+                  <a className="careers-footer__link" href="/about">
                     Learn more
                   </a>
                 </div>

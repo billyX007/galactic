@@ -47,7 +47,7 @@ export default function Contact() {
                         UK/Europe&nbsp;team directly via email:
                         <strong>
                           <br />
-                          enquiries-uk-europe@the-boundary.com
+                          enquiries-uk-europe@the-galactic.com
                         </strong>
                       </p>
                     </div>
@@ -103,52 +103,52 @@ export default function Contact() {
                 <h3 className="p--medium p--light mb-8">
                   Business Development Director UK
                   <br />
-                  Dean Kennedy
+                  John Doe
                 </h3>
                 <a
                   className="p--medium"
-                  href="mailto:enquiries-uk-europe@the-boundary.com"
+                  href="mailto:enquiries-uk-europe@the-galactic.com"
                 >
-                  enquiries-uk-europe@the-boundary.com
+                  enquiries-uk-europe@the-galactic.com
                 </a>
               </div>
               <div className="grid__item a4-16 e3-6 f6-6 mb-32">
                 <h3 className="p--medium p--light mb-8">
                   Business Development Director MENA
                   <br />
-                  Chris Mitchell
+                  John Doe
                 </h3>
                 <a
                   className="p--medium"
-                  href="mailto:enquiries-gcc@the-boundary.com"
+                  href="mailto:enquiries-gcc@the-galactic.com"
                 >
-                  enquiries-gcc@the-boundary.com
+                  enquiries-gcc@the-galactic.com
                 </a>
               </div>
               <div className="grid__item a4-16 e3-6 f6-6 mb-32">
                 <h3 className="p--medium p--light mb-8">
                   Business Development Director US
                   <br />
-                  Patrick Redmond
+                  Jane Doe
                 </h3>
                 <a
                   className="p--medium"
-                  href="mailto:enquiries-usa@the-boundary.com"
+                  href="mailto:enquiries-usa@the-galactic.com"
                 >
-                  enquiries-usa@the-boundary.com
+                  enquiries-usa@the-galactic.com
                 </a>
               </div>
               <div className="grid__item a4-16 e3-6 f6-6 mb-32">
                 <h3 className="p--medium p--light mb-8">
                   Client Director NZ
                   <br />
-                  Matt Silver
+                  Matt Damon
                 </h3>
                 <a
                   className="p--medium"
-                  href="mailto:enquiries-apac@the-boundary.com"
+                  href="mailto:enquiries-apac@the-galactic.com"
                 >
-                  enquiries-apac@the-boundary.com
+                  enquiries-apac@the-galactic.com
                 </a>
               </div>
             </div>

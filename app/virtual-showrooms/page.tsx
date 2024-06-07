@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header/Header";
+import Link from "next/link";
 
 export default function VirtualShowrooms() {
   return (
@@ -48,12 +49,12 @@ export default function VirtualShowrooms() {
                 className="revealable"
                 style={{ transform: "translateY(0%)", opacity: 1 }}
               >
-                <a
+                <Link
                   className="mt-32 button button--fill-green button--rounded"
-                  href="https://www.the-boundary.com/contact"
+                  href="/contact"
                 >
                   Discuss your project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -305,8 +306,8 @@ export default function VirtualShowrooms() {
           <div className="results container page__spacing-xs">
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/sky-frame-virtual-showroom"
+                <Link
+                  href="/work/sky-frame-virtual-showroom"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -331,11 +332,11 @@ export default function VirtualShowrooms() {
                       Sky-Frame Virtual Showroom
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/fisher-paykel-virtual-showroom"
+                <Link
+                  href="/work/fisher-paykel-virtual-showroom"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -360,13 +361,13 @@ export default function VirtualShowrooms() {
                       Fisher &amp; Paykel Virtual Showroom
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="grid flex flex--wrap">
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-iconic-home-3"
+                <Link
+                  href="/work/the-iconic-home-3"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -382,11 +383,11 @@ export default function VirtualShowrooms() {
                   <div className="listing__content">
                     <div className="listing__title">The Iconic Home 3</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-etsy-house"
+                <Link
+                  href="/work/the-etsy-house"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -409,11 +410,11 @@ export default function VirtualShowrooms() {
                   <div className="listing__content">
                     <div className="listing__title">The Etsy House</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/condé-nast-iconic-home-2"
+                <Link
+                  href="/work/condé-nast-iconic-home-2"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -429,11 +430,11 @@ export default function VirtualShowrooms() {
                   <div className="listing__content">
                     <div className="listing__title">The Iconic Home 2</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-iconic-home"
+                <Link
+                  href="/work/the-iconic-home"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -456,7 +457,7 @@ export default function VirtualShowrooms() {
                   <div className="listing__content">
                     <div className="listing__title">The Iconic Home</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -482,12 +483,12 @@ export default function VirtualShowrooms() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>

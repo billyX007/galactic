@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header/Header";
+import Link from "next/link";
 
 export default function VirtualTours() {
   return (
@@ -49,12 +50,12 @@ export default function VirtualTours() {
                 className="revealable"
                 style={{ transform: "translateY(0%)", opacity: 1 }}
               >
-                <a
+                <Link
                   className="mt-32 button button--fill-green button--rounded"
-                  href="https://www.the-boundary.com/contact"
+                  href="/contact"
                 >
                   Discuss your project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -301,8 +302,8 @@ export default function VirtualTours() {
           <div className="results container page__spacing-xs">
             <div className="grid flex flex--wrap">
               <div className="listing__item grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/elements-budds-beach-virtual-tours"
+                <Link
+                  href="/work/elements-budds-beach-virtual-tours"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -327,11 +328,11 @@ export default function VirtualTours() {
                       Elements Budds Beach Virtual Tours
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/ancora-collins-wharf-virtual-tours"
+                <Link
+                  href="/work/ancora-collins-wharf-virtual-tours"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -356,11 +357,11 @@ export default function VirtualTours() {
                       Ancora at Collins Wharf Virtual Tour
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a6-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/park-quarter"
+                <Link
+                  href="/work/park-quarter"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -383,13 +384,13 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Park Quarter</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="grid flex flex--wrap">
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/waldorf-astoria"
+                <Link
+                  href="/work/waldorf-astoria"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -405,11 +406,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Waldorf Astoria</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/arc-residences"
+                <Link
+                  href="/work/arc-residences"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -432,11 +433,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Arc Residences</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/green-square"
+                <Link
+                  href="/work/green-square"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -459,11 +460,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Green Square</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/the-monaco"
+                <Link
+                  href="/work/the-monaco"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -486,11 +487,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">The Monaco</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/victoria-and-albert"
+                <Link
+                  href="/work/victoria-and-albert"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -506,11 +507,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Victoria and Albert</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/masthead-ocean-club"
+                <Link
+                  href="/work/masthead-ocean-club"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -533,11 +534,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Masthead Ocean Club</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/northbrook-wynyard-quarter"
+                <Link
+                  href="/work/northbrook-wynyard-quarter"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -562,11 +563,11 @@ export default function VirtualTours() {
                       Northbrook Wynyard Quarter
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/white-main-beach"
+                <Link
+                  href="/work/white-main-beach"
                   className="listing listing--size_4 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -589,11 +590,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">White Main Beach</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/coast"
+                <Link
+                  href="/work/coast"
                   className="listing listing--size_3 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -609,11 +610,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Coast</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/royale-gold-coast"
+                <Link
+                  href="/work/royale-gold-coast"
                   className="listing listing--size_2 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -636,11 +637,11 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">Royale Gold Coast</div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="listing__item listing__item--hidden grid__item a4-12 f6-6">
-                <a
-                  href="https://www.the-boundary.com/work/la-vera"
+                <Link
+                  href="/work/la-vera"
                   className="listing listing--size_1 swiper-slide"
                 >
                   <div className="listing__image-container">
@@ -663,7 +664,7 @@ export default function VirtualTours() {
                   <div className="listing__content">
                     <div className="listing__title">La Vera</div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -689,12 +690,12 @@ export default function VirtualTours() {
                     </p>
                   </div>
                 </div>
-                <a
-                  href="https://www.the-boundary.com/contact"
+                <Link
+                  href="/contact"
                   className="button button--fill-green button--rounded"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>

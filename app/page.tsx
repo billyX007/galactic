@@ -2,6 +2,11 @@ import Image from "next/image";
 import HomeClasses from "./components/base/client/HomeClasses";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Galactic Labs",
+};
 
 export default function Home() {
   return (
@@ -18,8 +23,7 @@ export default function Home() {
                 <div
                   className="hero hero--home"
                   style={{
-                    backgroundImage:
-                      "url( '/img/img-placeholders/placeholder.jpg' )",
+                    backgroundImage: "url( '/img/home/ice.webp' )",
                     backgroundSize: "cover",
                     // backgroundImage:
                     //   "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
@@ -44,7 +48,8 @@ export default function Home() {
                 className="a10-16 f6-6 revealable hero__headline"
                 style={{ transform: "translateY(0%); opacity: 1" }}
               >
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                Journey beyond
+                <br /> the ordinary
               </div>
 
               <div className="revealable-container">
@@ -68,14 +73,14 @@ export default function Home() {
               <div className="container container--bleed-right-f">
                 <ul className="flex carousel-nav__ul">
                   <li
-                    data-id="cgis-animations-cinemagraphs"
+                    data-id="choose-your-destination"
                     className="carousel-nav__item"
                   >
-                    <a href="#cgis-animations-cinemagraphs">
-                      Neque porro quisquam
+                    <a href="#choose-your-destination">
+                      Choose your destination
                     </a>
                   </li>
-                  <li
+                  {/* <li
                     data-id="marketing-films"
                     className="carousel-nav__item invisible"
                   >
@@ -104,14 +109,14 @@ export default function Home() {
                     className="carousel-nav__item invisible"
                   >
                     <a href="#realspace">Realspace Sales Platform</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
 
             <section
               className="scroll-container__section"
-              id="cgis-animations-cinemagraphs"
+              id="choose-your-destination"
             >
               <div className="hp-carousel carousel--homepage">
                 <div className="container">
@@ -137,8 +142,7 @@ export default function Home() {
                     <div
                       className="hp-carousel__slide carousel__slide carousel__slide--video hp-carousel__slide--video viewing"
                       style={{
-                        backgroundImage:
-                          "url( '/img/img-placeholders/placeholder.jpg' )",
+                        backgroundImage: "url( '/img/home/galactic.webp' )",
                         // backgroundImage:
                         //   "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
                       }}
@@ -156,23 +160,22 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="#">Neque porro quisquam</a>
+                            <a href="#">Galactic Labs</a>
                           </h2>
-                          <a className="hp-carousel__link" href="#">
-                            Lorem ipsum dolor sit amet, consectetur
-                          </a>
+                          {/* <a className="hp-carousel__link" href="#">
+                            Galactic Labs
+                          </a> */}
                         </div>
                       </div>
                     </div>
-                    {/* 
+
                     <div
                       className="hp-carousel__slide carousel__slide carousel__slide--video hp-carousel__slide--video"
                       style={{
-                        backgroundImage:
-                          "url( 'https://cdn.the-boundary.com/uploads/projects/_carousel_poster/63131/LiddelRoad07.webp?v=1708528607' )",
+                        backgroundImage: "url( '/img/home/future.webp' )",
                       }}
                     >
-                      <video
+                      {/* <video
                         className="hp-carousel__video"
                         src="https://player.vimeo.com/progressive_redirect/playback/887706760/rendition/2160p/file.mp4?loc=external&amp;log_user=0&amp;signature=3656f84b9fd6809e383ffe46b287be1098dc7a3b2eaf9e13db56ee0c4322947b#t=0.1"
                         playsInline
@@ -180,27 +183,34 @@ export default function Home() {
                         loop
                         preload="none"
                         poster="https://cdn.the-boundary.com/uploads/projects/_carousel_poster/63131/LiddelRoad07.webp?v=1708528607"
-                      ></video>
+                      ></video> */}
+                      <Image
+                        className="hp-carousel__image "
+                        src="/img/home/future.webp"
+                        // src="https://cdn.the-boundary.com/uploads/_hero/75190/WaldorfExterior07.webp?v=1710435893"
+                        width="2160"
+                        height="1440"
+                        alt=""
+                        loading="lazy"
+                      />
 
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/the-clay-yard">
-                              The Clay Yard
-                            </a>
+                            <a href="#">Galactic Worlds</a>
                           </h2>
-                          <a
+                          {/* <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                            href="#"
                           >
                             View all CGIs, Animations &amp; Cinemagraphs case
                             studies
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </div>
 
-                    <div
+                    {/* <div
                       className="hp-carousel__slide carousel__slide carousel__slide--video hp-carousel__slide--video"
                       style={{
                         backgroundImage:
@@ -220,13 +230,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/1428-brickell">
+                            <a href="/work/1428-brickell">
                               The Residence at 1428 Brickell
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/cgis-animations-cinemagraphs"
+                            href="/cgis-animations-cinemagraphs"
                           >
                             View all CGIs, Animations &amp; Cinemagraphs case
                             studies
@@ -238,15 +248,14 @@ export default function Home() {
                     <div
                       className="hp-carousel__slide carousel__slide"
                       style={{
-                        backgroundImage:
-                          "url( '/img/img-placeholders/placeholder.jpg' )",
+                        backgroundImage: "url( '/img/home/rocket.webp' )",
                         // backgroundImage:
                         //   "url( 'https://cdn.the-boundary.com/uploads/_carousel_poster/49930/whitley-homepage-video-still.webp?v=1708509397' )",
                       }}
                     >
                       <Image
-                        className="hp-carousel__image"
-                        src="/img/img-placeholders/placeholder.jpg"
+                        className="hp-carousel__image position-top"
+                        src="/img/home/rocket.webp"
                         // src="https://cdn.the-boundary.com/uploads/_hero/75190/WaldorfExterior07.webp?v=1710435893"
                         width="2160"
                         height="1440"
@@ -257,11 +266,11 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="#">Sed ut perspiciatis</a>
+                            <a href="#">Galactic Products</a>
                           </h2>
-                          <a className="hp-carousel__link" href="#">
+                          {/* <a className="hp-carousel__link" href="#">
                             Nemo enim ipsam voluptatem quia voluptas
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </div>
@@ -312,13 +321,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/1428-brickell-film">
+                            <a href="/work/1428-brickell-film">
                               The Residence at 1428 Brickell
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/marketing-films"
+                            href="/marketing-films"
                           >
                             View all Marketing Films case studies
                           </a>
@@ -345,13 +354,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/mercedes-benz-places-film">
+                            <a href="/work/mercedes-benz-places-film">
                               Mercedes-Benz Places
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/marketing-films"
+                            href="/marketing-films"
                           >
                             View all Marketing Films case studies
                           </a>
@@ -379,13 +388,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/five-park-miami-beach-film">
+                            <a href="/work/five-park-miami-beach-film">
                               Five Park Miami Beach
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/marketing-films"
+                            href="/marketing-films"
                           >
                             View all Marketing Films case studies
                           </a>
@@ -412,13 +421,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/611w56-film">
+                            <a href="/work/611w56-film">
                               611 West 56th Street
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/marketing-films"
+                            href="/marketing-films"
                           >
                             View all Marketing Films case studies
                           </a>
@@ -445,13 +454,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/the-whiteley-london-film">
+                            <a href="/work/the-whiteley-london-film">
                               The Whiteley London
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/marketing-films"
+                            href="/marketing-films"
                           >
                             View all Marketing Films case studies
                           </a>
@@ -478,13 +487,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/waldorf-astoria-films">
+                            <a href="/work/waldorf-astoria-films">
                               Waldorf Astoria
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/marketing-films"
+                            href="/marketing-films"
                           >
                             View all Marketing Films case studies
                           </a>
@@ -538,13 +547,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/elements-budds-beach-virtual-tours">
+                            <a href="/work/elements-budds-beach-virtual-tours">
                               Elements Budds Beach Virtual Tours
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/virtual-tours"
+                            href="/virtual-tours"
                           >
                             View all Virtual Tours case studies
                           </a>
@@ -601,13 +610,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/sky-frame-virtual-showroom">
+                            <a href="/work/sky-frame-virtual-showroom">
                               Sky-Frame Virtual Showroom
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/virtual-showrooms"
+                            href="/virtual-showrooms"
                           >
                             View all Virtual Showrooms case studies
                           </a>
@@ -635,13 +644,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/fisher-paykel-virtual-showroom">
+                            <a href="/work/fisher-paykel-virtual-showroom">
                               Fisher &amp; Paykel Virtual Showroom
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/virtual-showrooms"
+                            href="/virtual-showrooms"
                           >
                             View all Virtual Showrooms case studies
                           </a>
@@ -695,13 +704,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/wellington-digital-twin">
+                            <a href="/work/wellington-digital-twin">
                               Wellington Digital Twin
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/digital-twins"
+                            href="/digital-twins"
                           >
                             View all Digital Twins case studies
                           </a>
@@ -729,13 +738,13 @@ export default function Home() {
                       <div className="container">
                         <div className="hp-carousel__content">
                           <h2>
-                            <a href="https://www.the-boundary.com/work/kinma-valley">
+                            <a href="/work/kinma-valley">
                               Kinma Valley
                             </a>
                           </h2>
                           <a
                             className="hp-carousel__link"
-                            href="https://www.the-boundary.com/digital-twins"
+                            href="/digital-twins"
                           >
                             View all Digital Twins case studies
                           </a>
@@ -767,13 +776,13 @@ export default function Home() {
                 <div className="container">
                   <div className="hp-carousel__content">
                     <h2>
-                      <a href="https://www.the-boundary.com/work/park-quarter-realspace">
+                      <a href="/work/park-quarter-realspace">
                         Park Quarter Realspace
                       </a>
                     </h2>
                     <a
                       className="hp-carousel__link"
-                      href="https://www.the-boundary.com/realspace"
+                      href="  realspace"
                     >
                       View all Realspace Sales Platform case studies
                     </a>
