@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "esbuild --minify public/js/final.js --outdir=public/js/ --allow-overwrite | next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,6 +15,7 @@
     "embla-carousel": "^8.1.3",
     "embla-carousel-autoplay": "^8.1.3",
     "embla-carousel-class-names": "^8.1.3",
+    "esbuild": "^0.21.4",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
