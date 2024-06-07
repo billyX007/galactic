@@ -3508,6 +3508,18 @@ footer.footer {
   color: #f7f4ec;
   pointer-events: none;
 }
+@media only screen and (max-width: 1200px) {
+  .hero__headline {
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 978px) {
+  .hero__headline {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}
 @media only screen and (max-width: 799px) {
   .hero__headline {
     font-size: 2.5rem;
@@ -4199,7 +4211,7 @@ footer.footer {
 .nav__link--site-logo {
   background: url("/img/logo/logo.svg") no-repeat;
   background-size: contain;
-  display: block;
+  display: list-item;
   height: 45px;
   margin-bottom: 6.75rem;
   width: 256px;
